@@ -6,3 +6,9 @@ basic GPIO commands for steering 2 motors in an RC car.
 
 MQTT version subscribes to a MQTT broker and listens for commands
 
+Suggest:
+Use Eclipse Foundation Mosquitto Broker and Client
+
+requires:  paho-mqtt python library
+'sudo pip install paho-mqtt'
+
