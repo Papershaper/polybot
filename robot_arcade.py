@@ -75,10 +75,11 @@ def drive_command(cmd):
 	elif (cmd[1] == 'R'):
 		set_right()
 	# ELSE straight - no turn
-	#drive duration
+	#drive duration --- override  just 1second
 	print("duration: "+cmd[2])
-	time.sleep((float(cmd[2])*step_duration))
-	
+	#time.sleep((float(cmd[2])*step_duration))
+	time.sleep(1)
+
 	#shut off motors
 	disable_pins()
 

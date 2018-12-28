@@ -57,6 +57,10 @@ def set_right():
 def disable_pins():
 	gpio.output(motor_pinEnable, False)
 	gpio.output(steer_pinEnable, False)
+	gpio.output(motor_pinA, False)
+	gpio.output(motor_pinB, False)
+	gpio.output(steer_pinA, False)
+	gpio.output(steer_pinB, False)
 	
 def drive_command(cmd):
 	#CMD should be motor,steer,duration
@@ -101,7 +105,7 @@ def main():
 	
 	try:
 		client.connect(broker, 1883, 60)
-		client.subscribe("polybot/command", 0)
+		client.subscribe("LR/command", 0)
 		client.loop_forever()
 		
 	finally:
