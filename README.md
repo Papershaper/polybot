@@ -12,3 +12,4 @@ Use Eclipse Foundation Mosquitto Broker and Client
 requires:  paho-mqtt python library
 'sudo pip install paho-mqtt'
 
+Servo code is using the adafruit PCA9685 libraries
