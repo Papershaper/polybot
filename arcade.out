@@ -1,0 +1,13 @@
+nohup: ignoring input
+/home/pi/polybot/robot_arcade.py:25: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  gpio.setup(motor_pinEnable, gpio.OUT)
+/home/pi/polybot/robot_arcade.py:26: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  gpio.setup(motor_pinA, gpio.OUT)
+/home/pi/polybot/robot_arcade.py:27: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  gpio.setup(motor_pinB, gpio.OUT)
+/home/pi/polybot/robot_arcade.py:28: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  gpio.setup(steer_pinEnable, gpio.OUT)
+/home/pi/polybot/robot_arcade.py:29: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  gpio.setup(steer_pinA, gpio.OUT)
+/home/pi/polybot/robot_arcade.py:30: RuntimeWarning: This channel is already in use, continuing anyway.  Use GPIO.setwarnings(False) to disable warnings.
+  gpio.setup(steer_pinB, gpio.OUT)
